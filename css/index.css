@@ -1,0 +1,439 @@
+/*====================head=====================*/
+header{
+    width: 100vw;
+    height: 8vh;
+    background-color: #465858;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}
+header div:nth-child(1){
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+header div:nth-child(1) a{
+    text-decoration: underline;
+    font-size: 1.4rem;
+    color: #fff;
+}
+header div:nth-child(1) span{
+    transform: rotate(-90deg);
+}
+header div:nth-child(2) {
+    height:25px;
+    width: 200px;
+    background-color: #fff;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 12px;
+}
+header div:nth-child(2) span{
+    font-size: 1rem;
+    color: #00b3ee;
+}
+header div:nth-child(2) a{
+    font-size: 1rem;
+    color: #c3c8cd;
+}
+header div:nth-child(3) p{
+    font-size: 1.5rem;
+}
+header div:nth-child(4) p{
+    font-size: 2rem;
+}
+
+/*====================main=====================*/
+#scroller ul li{
+    border: none;
+}
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 8vh;
+    bottom: 8vh;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+}
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100vw;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+#scroller ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+#scroller li {
+    padding: 0 10px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+/*====================footer=====================*/
+
+
+/*导航栏*/
+#scroller ul li:nth-child(1){
+    height: 20vh;
+    background: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#scroller .swiper-container {
+    width: 110vw;
+    height: 18vh;
+}
+#scroller .swiper-container img{
+    width: 45vw;
+    height: 18vh;
+}
+
+/*当前发货地址*/
+.nowAddress{
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    z-index: 999;
+    opacity: .8;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nowAddress .box{
+    width: 90vw;
+    height: 45vh;
+    background: #fff;
+}
+
+
+#scroller ul li:nth-child(2){
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #7fc4cb;
+    color: white;
+}
+
+
+
+#scroller ul li:nth-child(2) .box{
+    height: 40vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#scroller ul li:nth-child(2) .inquire{
+    height: 6vh;
+    border-bottom: 1px solid white;
+}
+
+#scroller .inquire:nth-child(1){
+    text-align: center;
+    width: 95vw;
+    line-height: 4vh;
+}
+#scroller .inquire:nth-child(1) a{
+    font-weight: 900;
+    font-size: 2.2vh;
+    color: white;
+    height: 6vh;
+    line-height: 6vh;
+    display: inline-block;
+    width: 25vw;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: .3rem solid white;
+}
+#scroller .inquire:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+#scroller .inquire:nth-child(2) div:nth-child(1){
+    line-height: 6vh;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+#scroller .inquire:nth-child(2) p:nth-child(1){
+    font-size: 1.3rem;
+    line-height: 1.8vh;
+}
+#scroller .inquire:nth-child(2) p{
+    height: 2.4vh;
+    text-align: center;
+    line-height: 3vh;
+    font-size: 1rem;
+}
+
+
+#scroller .inquire:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
+#scroller .inquire:nth-child(3) div{
+    text-align: center;
+    line-height: 2vh;
+}
+#scroller .inquire:nth-child(3) div span{
+    font-size: 0.6rem;
+    margin-left: 5px;
+}
+#scroller .inquire:nth-child(3) div:nth-child(1) p{
+    height: 3vh;
+}
+#scroller .inquire:nth-child(3) div:nth-child(2){
+    line-height: 5vh;
+    color: red;
+}
+#scroller .inquire:nth-child(3) div:nth-child(3) p{
+    height: 3vh;
+}
+#scroller .inquire:nth-child(3) div:nth-child(1) p:nth-child(1){
+    color: #fff;
+    font-weight: 600;
+}
+#scroller .inquire:nth-child(3) div:nth-child(3) p:nth-child(1){
+    color: #fff;
+    font-weight: 600;
+}
+#scroller .inquire:nth-child(3) div:nth-child(1) p:nth-child(2){
+    color: #fff;
+    font-weight: 900;
+}
+#scroller .inquire:nth-child(3) div:nth-child(3) p:nth-child(2){
+    color: #fff;
+    font-weight: 900;
+}
+
+/*选择入住日期*/
+.index_date{
+    position: absolute;
+    width: 600vw;
+    height: 20vh;
+    z-index: 1000;
+    top: 30vh;
+    left: 20vw;
+    opacity: 0;
+}
+.index_date input{
+    border: none;
+    outline: none;
+    width: 60vw;
+    height: 5vh;
+    font-size: 2rem;
+    background: silver;
+}
+.index_date p{
+    position: absolute;
+    left: 13vw;
+    top: 5vh;
+    font-size: 1rem;
+    width: 30vw;
+    height: 4vh;
+    text-align: center;
+    line-height: 4vh;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+
+
+
+#scroller .inquire:nth-child(4), #scroller .inquire:nth-child(5), #scroller .inquire:nth-child(6){
+    text-align: center;
+    line-height: 5vh;
+    color: #fff;
+}
+#scroller .inquire:nth-child(6){
+    background: #40a7ba;
+    color: white;
+}
+#scroller .inquire:nth-child(6) span{
+    margin-right: 2vw;
+}
+
+/*第二个轮播图*/
+#scroller ul li:nth-child(3){
+    height: 15vh;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+}
+#scroller ul li:nth-child(3) img{
+    height: 13vh;
+    width: 100%;
+    border-radius: 6px;
+}
+#scroller ul li:nth-child(3) .swiper-wrapper{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+#scroller .swiper-container1, #scroller .swiper-wrapper{
+    width: 100%;
+}
+
+/*特色酒店*/
+#scroller ul li:nth-child(4){
+    display: flex;
+    flex-wrap: wrap;
+    height: 12vh;
+    justify-content: center;
+}
+#scroller ul li:nth-child(4) div{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+}
+#scroller ul li:nth-child(4) div p{
+    width: 35vw;
+    height: 15vw;
+    background: url("../imgs/discovery/grogshop/bg1.png") no-repeat center;
+}
+#scroller ul li:nth-child(4) div p:nth-child(2){
+    background: none;
+    line-height: 8vh;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.6rem;
+    width: 22vw;
+}
+#scroller ul li:nth-child(4) div p:nth-child(3){
+    background: url("../imgs/discovery/grogshop/bg2.png") no-repeat center;
+}
+#scroller ul li:nth-child(4) .referral{
+    line-height: 5vh;
+    height: 5vh;
+    font-weight: 900;
+}
+
+/*特色酒店栏目*/
+#scroller ul li:nth-child(5){
+    background: #f4f4f4;
+    height: 480vh;
+}
+#scroller ul li:nth-child(5) .unique_hotel{
+    width: 95vw;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scroller ul li:nth-child(5) img{
+    height: 20vh;
+    width: 95vw;
+}
+#scroller ul li:nth-child(5) .box div:nth-child(1){
+    height: 20vh;
+}
+#scroller ul li:nth-child(5) .unique_hotel .box{
+    width: 95vw;
+    height: 45vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#scroller ul li:nth-child(5) .detail{
+    height: 30vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scroller ul li:nth-child(5) .detail .boxdetail{
+    width: 90vw;
+    height: 30vw;
+}
+#scroller ul li:nth-child(5) .boxdetail div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    line-height: 6vh;
+}
+#scroller ul li:nth-child(5) .boxdetail p:nth-child(1){
+    width: 68vw;
+    font-size: 1.5rem;
+    height: 5vh;
+    font-weight: 900;
+}
+#scroller ul li:nth-child(5) .boxdetail p:nth-child(2){
+    font-size: .5rem;
+    text-align: right;
+    width: 30vw;
+    font-weight: 900;
+}
+#scroller ul li:nth-child(5) .boxdetail p:nth-child(2) span:nth-child(1){
+    font-size: .5rem;
+    color: red;
+}
+#scroller ul li:nth-child(5) .boxdetail p:nth-child(2) span:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#scroller ul li:nth-child(5) .details{
+    height: 15vh;
+    line-height: 3vh;
+    color: #666;
+}
+#scroller ul li:nth-child(6){
+    height: 5vh;
+    text-align: center;
+    font-weight: 900;
+    line-height: 2vh;
+    background: #f4f4f4;
+}
+#scroller ul li:nth-child(6) a{
+    display: inline-block;
+    padding: .8vh 3vw;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
+
+/*底部样式*/
+#footer > div:nth-child(1){
+    color: #35b9af;
+}
+#footer > div:nth-child(1) a{
+    color: #35b9af;
+}

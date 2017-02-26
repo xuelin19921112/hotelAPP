@@ -1,0 +1,197 @@
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5,header,footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.swiper-container{
+    height: 100vh;
+}
+.swiper-slide{
+    height: 100vh;
+    position: relative;
+}
+.show_bg{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top:0;
+    background-color: rgba(0,0,0,0.4);
+}
+/*=======================第一页=========================*/
+.swiper-slide:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../imgs/bg1.jpg") no-repeat;
+    background-size: cover;
+    filter:alpha(opacity:50)
+
+}
+.swiper-slide:nth-child(1) .show_box1{
+    width: 80vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+.swiper-slide:nth-child(1) .show_box1 img{
+    width:50px;
+    height: 50px;
+
+}
+.swiper-slide:nth-child(1) .show_box1 span{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #C2CCD1;
+}
+.swiper-slide:nth-child(1) .show_box1 p{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #C2CCD1;
+}
+/*=======================第二页=========================*/
+.swiper-slide:nth-child(2){
+    background: url("../imgs/bg2.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+}
+.swiper-slide:nth-child(2) .show_box2{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.swiper-slide:nth-child(2) .show_box2 div{
+    width: 220px;
+    height: 200px;
+    transform: rotate(20deg);
+    background: white url("../imgs/hotel.jpg") no-repeat center 20%;
+    background-size: 85%;
+    line-height: 350px;
+    text-align: center;
+}
+.swiper-slide:nth-child(2) .show_box2 div span{
+    color: black;
+    font-size: 2rem;
+}
+/*=======================第三页=========================*/
+.swiper-slide:nth-child(3) {
+    background: url("../imgs/bg3.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.swiper-slide:nth-child(3) .show_box3{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.swiper-slide:nth-child(3) .show_box3 div{
+    width: 220px;
+    height: 200px;
+    transform: rotate(-20deg);
+    background: white url("../imgs/food.jpg") no-repeat center 20%;
+    background-size: 85%;
+    line-height: 350px;
+    text-align: center;
+}
+.swiper-slide:nth-child(3) .show_box3 div span{
+    color: black;
+    font-size: 2rem;
+}
+
+/*=======================第四页=========================*/
+.swiper-slide:nth-child(4){
+    background: url("../imgs/bg4.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.swiper-slide:nth-child(4) .show_box4{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.show_box4 div:nth-child(1){
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.show_box4 div:nth-child(1) div:nth-child(1){
+    width: 140px;
+    height: 160px;
+    background: white url("../imgs/hotel2.jpg") no-repeat center 20%;
+    background-size: 85% 70%;
+    transform: rotate(-20deg);
+}
+.show_box4 div:nth-child(1) div:nth-child(2){
+    width: 140px;
+    height: 160px;
+    background: white url("../imgs/hotel3.jpg") no-repeat center 20%;
+    background-size: 85% 70%;
+    transform: rotate(20deg);
+}
+.show_box4 div:nth-child(2){
+    height: 200px;
+    width: 180px;
+    background: white url("../imgs/food2.jpg") no-repeat center 20%;
+    background-size: 85% 70%;
+    transform: rotate(20deg);
+
+}
+.show_title{
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    line-height: 15vh;
+}
+.show_title h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #9acfea;
+
+
+}
+.join_in{
+    width: 43vw;
+    height: 7vh;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 8vh;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 7vh;
+    color: white;
+    border: 3px solid #dddddd;
+
+}

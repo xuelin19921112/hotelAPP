@@ -1,0 +1,500 @@
+
+/*====================header=====================*/
+.mine_top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #465858;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+.mine_top div{
+    width: 10vw;
+    height: 8vh;
+    line-height: 8vh;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+.mine_top div:nth-child(1){
+    flex-grow: 2;
+}
+/*====================wrapper=====================*/
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 8vh;
+    bottom: 8vh;
+    left: 0;
+    width: 100vw;
+}
+
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100vw;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+#scroller ul {
+    list-style: none;
+    width: 100vw;
+    text-align: left;
+}
+
+#scroller li {
+    width: 100vw;
+    background-color: #fafafa;
+    font-size: 1rem;
+    overflow: hidden;
+}
+/*【用户头像】*/
+#scroller li:nth-child(1){
+    height: 12vh;
+    background-color: #465858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scroller .mine_li1{
+    width: 95vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#scroller .mine_li1 div{
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+#scroller .mine_li1 div:nth-child(1){
+    width: 56px;
+    height: 56px;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+
+}
+#scroller .mine_li1 div:nth-child(1) img{
+    width: 50px;
+    height: 50px;
+}
+#scroller .mine_li1 div:nth-child(2){
+    display: none;
+}
+#scroller .mine_li1 div:nth-child(2) p{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: left;
+    padding: 18px 10px;
+}
+#scroller .mine_li1 div:nth-child(2) p i{
+    color: #fff;
+    font-size: 1.2rem;
+    background-color:  orange;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding-right: 1px;
+}
+#scroller .mine_li1 div:nth-child(2) span{
+    font-size: 1.2rem;
+}
+#scroller .mine_li1 div:nth-child(3){
+    display: block;
+    line-height: 10vh;
+}
+#scroller .mine_li1 div:nth-child(3) a{
+    color: white;
+}
+/*【收藏】*/
+#scroller li:nth-child(2){
+    height: 7vh;
+    background-color: #465858;
+    border-top: 1px dashed #fff;
+}
+#scroller .mine_li2{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li2 div{
+    width: 49vw;
+    height: 3vh;
+    line-height: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+}
+#scroller .mine_li2 div:nth-child(2){
+    width: 1vw;
+}
+/*【我的订单】*/
+#scroller li:nth-child(3){
+    height: 7vh;
+    border-top: 1vh solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li3{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li3 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li3 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li3 div:nth-child(1) span{
+    color: #4f9bd8;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li3 div:nth-child(2){
+    text-align: right;
+}
+/*【未使用】*/
+#scroller li:nth-child(4){
+    height: 10vh;
+    border-bottom: 1vh solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scroller .mine_li4{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li4 div{
+    width: 25vw;
+    height: 7vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+}
+#scroller .mine_li4 div p{
+    width: 100%;
+    text-align: center;
+}
+#scroller .mine_li4 div p:nth-child(1){
+    font-size: 2rem;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+#scroller .mine_li4 div p:nth-child(2){
+    font-size: 1rem;
+    letter-spacing: normal;
+}
+/*【我的钱包】*/
+#scroller li:nth-child(5){
+    height: 7vh;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li5{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li5 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li5 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li5 div:nth-child(1) span{
+    color: orange;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li5 div:nth-child(2){
+    text-align: right;
+}
+
+/*【余额】*/
+#scroller li:nth-child(6){
+    height: 7vh;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li6{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li6 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li6 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li6 div:nth-child(1) span{
+    color: orange;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li6 div:nth-child(2){
+    text-align: right;
+}
+
+/*【抵用券】*/
+#scroller li:nth-child(7){
+    height: 7vh;
+    border-bottom: 1vh solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li7{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li7 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li7 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li7 div:nth-child(1) span{
+    color: purple;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li7 div:nth-child(2){
+    text-align: right;
+}
+/*【好友去哪】*/
+#scroller li:nth-child(8){
+    height: 7vh;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li8{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li8 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li8 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li8 div:nth-child(1) span{
+    color: #4f9bd8;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li8 div:nth-child(2){
+    text-align: right;
+}
+
+/*【我的评价】*/
+#scroller li:nth-child(9){
+    height: 7vh;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li9{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li9 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li9 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li9 div:nth-child(1) span{
+    color: #4f9bd8;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li9 div:nth-child(2){
+    text-align: right;
+}
+
+/*【会员中心】*/
+#scroller li:nth-child(10){
+    height: 7vh;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li10{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li10 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li10 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li10 div:nth-child(1) span{
+    color: red;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li10 div:nth-child(2){
+    text-align: right;
+}
+/*【积分商城】*/
+#scroller li:nth-child(11){
+    height: 7vh;
+    border-bottom: 1vh solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li11{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li11 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li11 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li11 div:nth-child(1) span{
+    color: red;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li11 div:nth-child(2){
+    text-align: right;
+}
+/*【会员中心】*/
+#scroller li:nth-child(12){
+    height: 7vh;
+    border-bottom: 1vh solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+#scroller .mine_li12{
+    width: 95vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scroller .mine_li12 div{
+    width: 47.5vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+}
+#scroller .mine_li12 div:nth-child(1){
+    text-align: left;
+}
+#scroller .mine_li12 div:nth-child(1) span{
+    color: green;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+#scroller .mine_li12 div:nth-child(2){
+    text-align: right;
+}
+
+/*====================footer=====================*/
+#footer > div:nth-child(4){
+    color: #35b9af;
+}
+#footer > div:nth-child(4) a{
+    color: #35b9af;
+}

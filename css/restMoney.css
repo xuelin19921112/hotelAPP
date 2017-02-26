@@ -1,0 +1,103 @@
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    position: relative;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden;
+    background-color: #dad7d7; 
+}
+img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+html {
+    -ms-touch-action: none;
+}
+/*====================header=====================*/
+.restMoney_top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #fff;
+    display: flex;
+    /*border: 1px solid gray;
+    border-left: none;
+    border-right: none;*/
+}
+.restMoney_top div{
+    height: 8vh;
+    line-height: 8vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: gray;
+    letter-spacing: 2px;
+}
+.restMoney_top div:nth-child(1){
+    width: 13vw;
+    font-size: 2rem;
+}
+.restMoney_top div:nth-child(2){
+    flex-grow: 3;
+    text-align: left;
+}
+.restMoney_top div:nth-child(3){
+    width: 26vw;
+}
+/*====================restMoney_mian=====================*/
+.restMoney_main{
+    width: 100vw;
+    height: 98vh;
+    background-color: #f4f4f4;
+    position: relative;
+}
+.restMoney_main img{
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    left: 35vw;
+    top: 15vh;
+}
+.restMoney_main p{
+    width: 100vw;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 34vh;
+}
+.restMoney_main button{
+    width: 80vw;
+    height: 7vh;
+    line-height: 7vh;
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    background-color: orange;
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 44vh;
+    left: 10vw;
+}
+
+
+
+
+

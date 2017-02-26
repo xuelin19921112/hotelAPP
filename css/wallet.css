@@ -1,0 +1,190 @@
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    position: relative;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden;
+    background-color: #ececec; 
+}
+img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+html {
+    -ms-touch-action: none;
+}
+/*====================header=====================*/
+.wallet_top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #634d46;
+    display: flex;
+    justify-content: center;
+}
+.wallet_top .wallet_top_container{
+    width: 95vw;
+    height: 8vh;
+    display: flex;
+}
+.wallet_top .wallet_top_container div{
+    width: 45vw;
+    height: 8vh;
+    line-height: 8vh;
+    color: #fff;
+    font-size: 2rem;
+    text-align: left;
+}
+.wallet_top .wallet_top_container div span{
+    font-size: 2rem;
+}
+.wallet_top .wallet_top_container div:nth-child(2){
+    text-align: left;
+    width: 50vw;
+}
+/*====================用户昵称=====================*/
+.wallet_name{
+    width: 100vw;
+    height: 16vh;
+    background-color: #634d46;
+}
+.wallet_name p{
+    height: 9vh;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.wallet_name p:nth-child(1){
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 5px 0;
+}
+.wallet_name p:nth-child(2){
+    font-size: 1.3rem;
+    color: #e88f0c;
+}
+.wallet_name p:nth-child(2) span{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 5px;
+}
+.wallet_name p:nth-child(2) span i{
+    font-size: 1.1rem;
+}
+/*====================轮播=====================*/
+.wallet_swipe{
+    width: 100vw;
+    height: 14vh;
+}
+.wallet_swipe .swiper-container {
+    width: 100vw;
+    height: 14vh;
+}  
+.wallet_swipe .swiper-container img{
+    width: 100vw;
+    height: 14vh;
+}
+/*====================填充=====================*/
+.wallet_box{
+    width: 100vw;
+    height: 3vh;
+    background-color: #ececec;
+}
+/*====================内容=====================*/
+.wallet_main{
+    width: 100vw;
+    height: 40vh;
+    background-color: #ececec;
+    /*border: 1px solid gray;
+    border-left: none;
+    border-right: none;*/
+}
+.wallet_content{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wallet_content div{
+    width: 33.3vw;
+    height: 20vh;
+    background-color: #fff;
+}
+.wallet_content div p:nth-child(1){
+    width: 100%;
+    height: 13vh;
+    line-height: 13vh;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.wallet_content div p:nth-child(2){
+    width: 100%;
+    height: 7vh;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.wallet_content div:nth-child(1) p:nth-child(1){
+    color: #ae4cbf;
+}
+.wallet_content div:nth-child(2) p:nth-child(1){
+    color: #da4376;
+}
+.wallet_content div:nth-child(3) p:nth-child(1){
+    color: #e24338;
+}
+.wallet_content div:nth-child(4) p:nth-child(1){
+    color: #7442ce;
+}
+.wallet_content div:nth-child(5) p:nth-child(1){
+    color: #1232e6;
+}
+.wallet_content div:nth-child(6) p:nth-child(1){
+    color: #53d8e8;
+}
+/*====================设置=====================*/
+.wallet_set{
+    width: 100vw;
+    height: 7vh;
+    background-color: #fff;
+    display: flex;
+    /*border: 1px solid gray;
+    border-left: none;
+    border-right: none;*/
+}
+.wallet_set div{
+    height: 7vh;
+    line-height: 7vh;
+    text-align: center;
+    font-size: 1.2rem;
+    color: gray;
+}
+.wallet_set div:nth-child(1){
+    width: 7vw;
+    font-size: 1.5rem;
+}
+.wallet_set div:nth-child(2){
+    flex-grow: 3;
+    text-align: left;
+}
+.wallet_set div:nth-child(3){
+    width: 7vw;
+}
+
+
+
+
+

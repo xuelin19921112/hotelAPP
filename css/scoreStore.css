@@ -1,0 +1,180 @@
+
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    position: relative;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden;
+}
+img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+html {
+    -ms-touch-action: none;
+}
+/*====================header=====================*/
+.scoreStore_top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #fff;
+    display: flex;
+    /*border: 1px solid gray;
+    border-left: none;
+    border-right: none;*/
+}
+.scoreStore_top div{
+    height: 8vh;
+    line-height: 8vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: gray;
+    letter-spacing: 2px;
+}
+.scoreStore_top div:nth-child(1){
+    width: 13vw;
+    font-size: 2rem;
+}
+.scoreStore_top div:nth-child(3){
+    width: 26vw;
+}
+/*====================scoreStore_mian=====================*/
+.scoreStore_main{
+    width: 100vw;
+    height: 92vh;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+.scoreStore_main .scoreStore_main_box{
+    width: 100vw;
+    height: 102vh;
+    background-color: #f4f4f4;
+}
+.scoreStore_1{
+    width: 100vw;
+    height: 8vh;
+    line-height: 8vh;
+    background-color: #fff;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+.scoreStore_1 div{
+    width: 33vw;
+    text-align: center;
+}
+.scoreStore_1 div:nth-child(2){
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.scoreStore_1 div p{
+    line-height: 4vh;
+    height: 4vh;
+}
+.scoreStore_1 div p:nth-child(2) span{
+    color: orange;
+}
+/*【好运播报】*/
+.scoreStore_2{
+    width: 100vw;
+    height: 6vh;
+    line-height: 6vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.scoreStore_2 .scoreStore_2_left{
+    width: 20vw;
+    height: 3vh;
+    line-height: 3vh;
+    border: 1px solid red;
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+}
+.scoreStore_2 .swiper-container{
+    width: 70vw;
+    height: 3vh;
+    line-height: 3vh;
+    text-align: center;
+    margin: 0;
+}
+/*【空】*/
+.scoreStore_30{
+    width: 100vw;
+    height: 3vh;
+}
+/*【积分好礼】*/
+.scoreStore_3{
+    width: 100vw;
+    height: 5vh;
+    line-height: 5vh;
+    text-indent: 2.5vw;
+    background-color: #fff;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+/*【商品列表】*/
+.scoreStore_4{
+    width: 100vw;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.scoreStore_4 li{
+    width: 50vw;
+    height: 20vh;
+    background-color: #fff;
+}
+.scoreStore_4 li img{
+    width: 30vw;
+    height: 11vh;
+}
+.scoreStore_4 li p:nth-child(1){
+    width: 50vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: #000;
+    font-size: 1.3rem;
+    text-indent: 2.5vw;
+}
+.scoreStore_4 li p:nth-child(2){
+    width: 50vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: gray;
+    font-size: 1.1rem;
+    text-indent: 2.5vw;
+}
+.scoreStore_4 li p:nth-child(4){
+    width: 50vw;
+    height: 3vh;
+    line-height: 3vh;
+    color: orange;
+    font-size: 1.1rem;
+    text-indent: 20vw;
+}
+.scoreStore_4 li p:nth-child(4) span{
+    color: gray;
+}
+
+

@@ -1,0 +1,117 @@
+
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    position: relative;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden;
+}
+img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+html {
+    -ms-touch-action: none;
+}
+/*====================header=====================*/
+.coupon_top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #fff;
+    display: flex;
+    /*border: 1px solid gray;
+    border-left: none;
+    border-right: none;*/
+}
+.coupon_top div{
+    height: 8vh;
+    line-height: 8vh;
+    
+    font-size: 1.3rem;
+    color: gray;
+    letter-spacing: 2px;
+}
+.coupon_top div:nth-child(1){
+    width: 13vw;
+    font-size: 2rem;
+    text-align: center;
+}
+.coupon_top div:nth-child(2){
+    width: 13vw;
+    flex-grow: 3;
+    align-self: left;
+}
+.coupon_top div:nth-child(3){
+    width: 15vw;
+    text-align: center;
+    color: #18dcca;
+}
+/*====================coupon_mian=====================*/
+.coupon_main{
+    width: 100vw;
+    height: 92vh;
+    background-color: #f0f0f0;
+    position: relative;
+}	
+.coupon_main ul{
+	height: 90vh;
+	width: 100vw;
+    padding-top: 2vh;
+}
+.coupon_main ul li{
+    text-align: center;
+}
+.coupon_main ul li:nth-child(1){
+	width: 80vw;
+    height: 6vh;
+	line-height: 6vh;
+	background-color: #fff;
+	font-size: 1.2rem;
+    margin: 0 auto;
+}
+.coupon_main ul li:nth-child(2){
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20vh;
+}
+.coupon_main ul li:nth-child(2) img{
+    width: 23vh;
+    height: 23vh;
+}
+.coupon_main ul li:nth-child(3){
+    width: 100vw;
+    height: 4vh;
+    line-height: 4vh;
+    font-size: 1rem;
+    color: gray;
+}
+.coupon_main ul li:nth-child(4){
+    width: 100vw;
+    height: 4vh;
+    line-height: 4vh;
+    font-size: 1rem;
+    color: #18dcca;
+}
+
+
+
+

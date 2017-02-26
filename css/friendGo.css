@@ -1,0 +1,128 @@
+
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    position: relative;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden;
+}
+img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+html {
+    -ms-touch-action: none;
+}
+/*====================header=====================*/
+.friendGo_top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #fff;
+    display: flex;
+}
+.friendGo_top div{
+    height: 8vh;
+    line-height: 8vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: gray;
+    letter-spacing: 2px;
+}
+.friendGo_top div:nth-child(1){
+    width: 13vw;
+    height: 8vh;
+    font-size: 2rem;
+}
+.friendGo_top div:nth-child(2){
+    flex-grow: 3;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.friendGo_top div:nth-child(2) div{
+    width: 50vw;
+    height: 5vh;
+    display:flex;
+    align-items:  center;
+    border: 1px solid #eee;
+    box-sizing: content-box;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.friendGo_top div:nth-child(2) div span{
+    display: inline-block;
+    width: 25vw;
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #80bdec;
+    color: #fff;
+}
+.friendGo_top div:nth-child(2) div span:nth-child(2){
+    background-color: #fff;
+    color: #80bdec;
+}
+.friendGo_top div:nth-child(3){
+    width: 13vw;
+    height: 8vh;
+}
+/*====================friendGo_mian=====================*/
+.friendGo_main{
+    width: 100vw;
+    height: 92vh;
+    background-color: #f4f4f4;
+    background-image: url(../imgs/friendGo1.png);
+    background-size: 100vw 92vh;
+    position: relative;
+    overflow-y: auto;
+}
+.friendGo_main section{
+    width: 100vw;
+    height: 15vh;
+    background-color: #fffcfb;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.friendGo_main section button{
+    width: 38vw;
+    height: 7vh;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.friendGo_main section button:nth-child(1){
+    background-color: #3289ce;
+}
+.friendGo_main section button:nth-child(2){
+    background-color: #108e15;
+}
+
+
+
+
+

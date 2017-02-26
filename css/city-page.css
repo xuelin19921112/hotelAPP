@@ -1,0 +1,130 @@
+#add-contaion{
+    height: 100vh;
+    width: 100vw;
+}
+#add-contaion .add-head{
+    height: 6vh;
+    background: #fafafa;
+    position: relative;
+}
+#add-contaion .add-head p{
+    text-align: center;
+    height: 4vh;
+    position: absolute;
+    font-size: 1rem;
+    width: 20vw;
+    top: 1vh;
+    line-height: 4vh;
+}
+#add-contaion .add-head p:nth-child(1){
+    font-size: 2rem;
+    line-height: 5vh;
+}
+#add-contaion .add-head p:nth-child(1) a{
+    color: #06c1ae;
+}
+#add-contaion .add-head p:nth-child(2){
+    left: 40vw;
+    background: #06c1ae;
+    border-radius: 1rem;
+}
+
+/*第二部分*/
+#add-contaion .add-seo{
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+#add-contaion .add-seo .box{
+    width: 95vw;
+}
+#add-contaion .add-seo .box div:nth-child(1){
+    height: 7.5vh;
+    position: relative;
+}
+#add-contaion .add-seo .box div:nth-child(1) input{
+    position: absolute;
+    width: 90vw;
+    height: 4vh;
+    outline: none;
+    text-align: center;
+    border: none;
+    background: #ebeced;
+    border-radius: 5px;
+    left: 4.5vw;
+    top: 1.2vh;
+    line-height: 4vh;
+}
+#add-contaion .add-seo .box div:nth-child(1) span{
+    position: absolute;
+    top: 1.6vh;
+    left: 24vw;
+    color: #666;
+}
+#add-contaion .add-seo .box div:nth-child(2){
+    position: relative;
+}
+#add-contaion .add-seo .box div:nth-child(2) p:nth-child(1){
+    position: absolute;
+    font-weight: 900;
+    left: 5vw;
+    top: 2.5vh;
+    font-size: 1.2rem;
+}
+#add-contaion .add-seo .box div:nth-child(2) p:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 2.5vh;
+    font-size: .6rem;
+}
+#add-contaion .add-seo .box div:nth-child(2) a{
+    color: #666;
+    text-decoration: underline;
+    margin-right: 1vw;
+}
+#add-contaion .add-seo .box div:nth-child(2) span{
+    transform: rotate(-90deg);
+}
+
+#add-contaion .add-main{
+    display: flex;
+    background: #f4f4f4;
+    width: 95vw;
+    height: 80vh;
+    justify-content: flex-end;
+}
+#add-contaion .add-main .box{
+    width: 90vw;
+    position: relative;
+}
+#add-contaion .add-main .box h2{
+    color: #666;
+    margin: 2vh 0;
+}
+#add-contaion .add-main .box a{
+    display: inline-block;
+    height: 6vh;
+    font-weight: 900;
+    border-radius: 1vh;
+    width: 26vw;
+    margin: 0 3vw 1.5vh 0;
+    line-height: 6vh;
+    text-align: center;
+    background: #fff;
+    color: #666;
+}
+/*侧边选项栏*/
+#add-contaion .add-main .add-aside{
+    position: absolute;
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    top: 30vh;
+}
+#add-contaion .add-main .add-aside a{
+    color: #06c1ae;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>list_seo</title>
+    <link rel="stylesheet" href="../iconfont/ux_1476000320_8966882/iconfont.css">
+    <link rel="stylesheet" href="../css/list_seo.css">
+    <script type="text/javascript" src="../js/zepto.js"></script>
+    <!-- <link rel="stylesheet" href="/css/list_seo.css" media="screen" title="no title"> -->
+
+
+</head>
+<body>
+    <!-- top -->
+    <div id="top">
+        <div ><a href="javascript:;" class="iconfont">&#xe61a;</a></div>
+        <div>
+            <span class="iconfont">&#x343e;</span>
+            <input type="text" name="name" value="" placeholder="搜索商家，品类或商圈">
+
+        </div>
+        <div>
+            <button type="button" name="button">搜索</button>
+        </div>
+    </div>
+    <div id="list_seo_nav">
+        热门搜索
+    </div>
+    <div id="list_seo_cont">
+        <div>圣菲索菲特酒店</div>
+        <div>广州白天鹅宾馆</div>
+        <div>广州九龙湖公主酒店</div>
+        <div>千里走单骑</div>
+        <div>大理2012艺术酒店</div>
+        <div>海天之恋酒店</div>
+        <div>深圳回酒店</div>
+        <div>岚音湾酒店</div>
+        <div>上海外滩酒店</div>
+    </div>
+    <div id="list_seo_main">
+        <ul>
+            <li class="list_main">
+
+            </li>
+        </ul>
+    </div>
+    <script src="../js/list_seo.js"></script>
+</body>
+    <script>
+
+       var viewport = document.querySelector("meta[name=viewport]");
+       //下面是根据设备像素设置viewport
+       if (window.devicePixelRatio == 1) {
+           viewport.setAttribute('content', 'width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no');
+       }
+       if (window.devicePixelRatio == 2) {
+           viewport.setAttribute('content', 'width=device-width,initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no');
+       }
+       if (window.devicePixelRatio == 3) {
+           viewport.setAttribute('content', 'width=device-width,initial-scale=0.3333333333333333, maximum-scale=0.3333333333333333, minimum-scale=0.3333333333333333, user-scalable=no');
+       }
+       var docEl = document.documentElement;
+       var fontsize = 10 * (docEl.clientWidth / 320) + 'px';
+       docEl.style.fontSize = fontsize;
+
+   </script>
+</html>

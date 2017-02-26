@@ -1,0 +1,200 @@
+/*--------------------------header-----------------------------*/
+header{
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    background-color: #465858;
+    color: white;
+
+}
+header .order_back{
+    position: absolute;
+    left: 15px;
+    top:12px;
+    font-size: 2rem;
+}
+header .order_back a{
+    color: white;
+}
+header div:nth-child(1){
+    width: 25vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header div:nth-child(1) p{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+header div span{
+    transform: rotate(-90deg);
+}
+header div:nth-child(3){
+    height: 13vh;
+    width: 100vw;
+    position: absolute;
+    bottom:-13.1vh;
+    left: 0;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+header div:nth-child(3) p{
+    width: 20vw;
+    height: 4vh;
+    border: 1px solid #acacac;
+    float: left;
+    margin: 28px 24px 0;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 4vh;
+    color: #999999;
+}
+/*--------------------------nav-----------------------------*/
+nav{
+    width: 100vw;
+    height: 5vh;
+    position: absolute;
+    top:8.1vh;
+    left: 0;
+    border-bottom: 1px solid #acacac;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: underline;
+    color: black;
+    display: block;
+    height: 4.7vh;
+    line-height: 4.7vh;
+    padding: 0 4px;
+}
+nav a:nth-child(1){
+    border-bottom: 2px solid #00CCFF;
+    color: #00CCFF;
+}
+/*--------------------------main-----------------------------*/
+
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 13.2vh;
+    bottom: 8vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #7fc4cb;
+}
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+#scroller ul {
+    width: 100%;
+    text-align: left;
+}
+
+#scroller li {
+    height: 13vh;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+#scroller li div{
+    width: 93vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+#scroller li div img{
+    width: 33px;
+    height: 33px;
+    border-radius:5px;
+}
+#scroller li div p{
+    width: 81vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#scroller li div p span{
+    font-size: 1rem;
+    color: #bbbbbb;
+}
+#scroller li div p span:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#scroller li div p span:nth-child(1) a:nth-child(2){
+    font-size: 1rem;
+    color: #00CCFF;
+    font-weight: 100;
+}
+#scroller li div:nth-child(2){
+    position: absolute;
+    bottom: 2vh;
+    right: 4vw;
+    width: 17vw;
+    height: 3.5vh;
+    border: 1px solid #de2f3c;
+    color: #de2f3c;
+    font-size: 1rem;
+    border-radius:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scroller li .del{
+    width: 20vw;
+    height: 12.5vh;
+    position: absolute;
+    right:-20vw;
+    top:0;
+    background-color: red;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*====================footer=====================*/
+#footer > div:nth-child(4){
+    color: #35b9af;
+}
+#footer > div:nth-child(4) a{
+    color: #35b9af;
+}

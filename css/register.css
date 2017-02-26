@@ -1,0 +1,131 @@
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    position: relative;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden; 
+}
+img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+html {
+    -ms-touch-action: none;
+}
+/*====================header=====================*/
+.register_top{
+    width: 100vw;
+    height: 8vh;
+    background-color: #4f9bd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.register_top .register_container{
+    width: 95vw;
+    height: 6vh;
+    display: flex;
+}
+.register_top .register_container div{
+    width: 95vw;
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.register_top .register_container span{
+    position: absolute;
+    left: 15px;
+    top:12px;
+    font-size: 2rem;
+}
+.register_top .register_container div:nth-child(1){
+    text-align: center;
+}
+/*【内容】*/
+.register_main{
+    width: 100vw;
+    height: 55vh;
+    position: absolute;
+    left: 0;
+    top: 12vh;
+    /*overflow: hidden;*/
+    display: flex;
+    justify-content: center;
+    background: rgba(243, 238, 238,0.2);
+}
+.register_main .register_main_ul{
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.register_main .register_main_ul li{
+    width: 90vw;
+    height: 7vh;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    background: rgba(125,125,125,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_main .register_main_ul li div{
+    width: 80vw;
+    height: 5vh;
+    display: flex;
+}
+.register_main .register_main_ul li div span{
+    display: inline-block;
+    height: 5vh;
+    width: 40vw;
+    line-height: 5vh;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.register_main .register_main_ul li div input{
+    border: none;
+    outline: none;
+    width: 50vw;
+    height: 5vh;
+    text-align: left;
+    font-size: 1.2rem;
+    background: rgba(125,125,125,0);
+}
+.register_main .register_main_ul li button{
+    width: 90vw;
+    height: 7vh;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    border: none;
+    outline: none;
+    background-color: none;
+    background: rgba(125,125,125,0.3);
+}
+.register_main .register_main_ul li:last-child{
+    width: 90vw;
+    height: 3vh;
+    border: none;
+    background: none;
+}

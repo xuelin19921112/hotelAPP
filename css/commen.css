@@ -1,0 +1,51 @@
+html,body,div,p,span,img,ul,li,h1,h2,h3,h4,h5,header,footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    width: 100vw;
+    height: 100vh;
+    font-family: ubuntu, helvetica, arial;
+    overflow: hidden;
+}
+html {
+    -ms-touch-action: none;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*foot*/
+#footer {
+    position: absolute;
+    z-index: 2;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    background: #e5f3f4;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #333333
+}
+#footer > div{
+    font-size: 3vh;
+    text-align: center;
+}
+#footer > div p{
+    font-size: 1.3vh;
+}
+#footer > div a{
+    color: #333333;
+}
